@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+main,.drawer-img,.lower-txt-div {
+    max-width: 280px;
+    width: 280px;
+}
+
+.drawer-img {
+    border-radius: 10px 10px 0 0;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    height: 530px;
+    position: relative;
+    top: 3em;
+    left: 0.75em;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.title,.txt {
+    font-size: 17px;
+    width: 85%;
+    position: relative;
+    left: 1.25em;
+}
+
+.user-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 5em;
+}
+
+.date {
+    position: relative;
+    bottom: 1.3em;
+    right: 2em;
+}
+
+.share {
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    padding: 12px;
+    width: 10%;
+    position: relative;
+    left: 13.8em;
+    bottom: 10em;
+}
+
+@media (min-width: 375px) {
+    main {
+        left: 2em;
+    }
+    .user-img {
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media (min-width: 400px) {
+    main {
+        left: 3em;
+    }
+}
+
+@media (min-width: 514px) {
+    main {
+        left: 7em;
+    }
+}
+
+@media (min-width: 600px) {
+    main {
+        left: 10em;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        left: 20em;
+    }
+}
