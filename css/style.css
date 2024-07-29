@@ -145,3 +145,42 @@ main {
         left: 13em;
     }
 }
+
+@media (min-width: 1440px) {
+    .lower-txt-div {
+        background-color: #fff;
+        position: relative;
+        bottom: 21.1em;
+        height: 82%;
+        left: 34.2em;
+        border-radius: 0 10px 10px 0;
+    }
+
+    main {
+        background-color: initial;
+    }
+
+    .drawer-img {
+        border-radius: 10px 0 0 10px;
+        position: relative;
+        top: 7em;
+    }
+
+    .title {
+        font-size: 20px;
+        color: hsl(217, 19%, 35%);
+    }
+
+    .txt {
+        font-size: 16px;
+    }
+
+    .user-div {
+        top: 6em;
+    }
+
+    .share {
+        bottom: 2.5em;
+        left: 27em;
+    }
+}
